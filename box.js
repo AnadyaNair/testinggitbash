@@ -5,7 +5,7 @@ class box{
     this.height=height;
     this.width=width;
     Matter.World.add(world,this.body);
-    console.log(this.body);
+  //  console.log(this.body);
     }
     
     display()
